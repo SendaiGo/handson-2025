@@ -69,7 +69,7 @@ VS Codeをご利用の場合は、以下の手順を実行します。
     "command": "go",
     "args": [
       "run",
-      "github.com/syumai/go-mcp-hands-on/examples/hello@latest"
+      "github.com/Senoue/handson-2025/mcp-go-handson/hello@latest"
     ]
   }
 }
@@ -77,10 +77,5 @@ VS Codeをご利用の場合は、以下の手順を実行します。
 
 ここまで設定が完了したら、 `hello` のキーの上に表示される `Start` をクリックして、GitHub CopilotのAgentを開いてください。
 
-チャットに「syumaiにhelloと言ってください」と入力すると、 `hello_world` のツールが選択され、呼ばれることが確認できます。
+チャットに「fooにhelloと言ってください」と入力すると、 `hello_world` のツールが選択され、呼ばれることが確認できます。
 
-## mcp-goの概要
-
-ここではざっくりと構造の説明を行います。
-
-詳細については[Go Doc](https://pkg.go.dev/github.com/mark3labs/mcp-go@v0.23.1)を参照してください。
